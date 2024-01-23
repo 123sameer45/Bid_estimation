@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 background-color: #3b4d7e;
 
 
@@ -7,4 +8,15 @@ background-color: #8b9dc3;
 
 color: #dfe3ee;
 
+=======
+background-color: #3b4d7e;
+
+
+background-color: #738bc6;
+
+background-color: #8b9dc3;
+
+color: #dfe3ee;
+
+>>>>>>> afd24e9 (Sameer)
 color: white;

@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 @import url('https://fonts.googleapis.com/css?family=Poppins:400,500,600,700&display=swap');
 
 * {
@@ -143,3 +144,150 @@ input[readonly]{
   background-color: #93a4a773;
 }
 
+=======
+@import url('https://fonts.googleapis.com/css?family=Poppins:400,500,600,700&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  outline: none;
+  box-sizing: border-box;
+  font-family: 'Poppins', sans-serif;
+}
+
+body {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+  padding: 5px;
+  background-color: rgba(198, 213, 229, 0.16);
+}
+
+/* table start */
+.section {
+  margin-left: 13%;
+  border: 5px solid black;
+  height: 580px;
+  overflow: auto;
+  width: 95%;
+}
+
+
+td {
+
+  padding: 2px;
+  text-align: left;
+}
+
+/* ------------------------- */
+/* Basic Input Styling */
+input[type="text"], 
+input.quantity {
+  /* width: 80%; */
+  padding: 5px;
+  border: 2px solid #aaa;
+  border-radius: 6px;
+  outline: none;
+  font-size: 16px;
+  transition: border-color 0.3s ease;
+  box-sizing: border-box;
+}
+
+
+/* Hover State */
+input[type="text"]:hover, 
+input.quantity:hover {
+  border-color: #666;
+}
+
+/* Focus State */
+input[type="text"]:focus, 
+input.quantity:focus {
+  border-color: #3498db;
+  box-shadow: 0 0 5px rgba(52, 152, 219, 0.5);
+}
+/* ------------------------- */
+/* Basic Input Styling */
+input[type="text"]  , input[type="date"]  {
+  /* width: 80%; */
+  padding: 5px;
+  border: 2px solid #aaa;
+  border-radius: 6px;
+  outline: none;
+  font-size: 16px;
+  transition: border-color 0.3s ease;
+  box-sizing: border-box;
+}
+
+
+/* Hover State */
+input[type="text"]:hover , input[type="date"]:hover {
+  border-color: #666;
+}
+
+/* Focus State */
+input[type="text"]:focus , input[type="date"]:focus {
+  border-color: #3498db;
+  box-shadow: 0 0 5px rgba(52, 152, 219, 0.5);
+}
+
+/* -----------------downloads---------------------- */
+
+/* ------------------------------------------ */
+.downloadexcel{
+ 
+  padding: 10px 20px;
+  /* display: none; */
+  margin: auto;
+  border-radius: 50px !important;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1), inset;
+  background: linear-gradient(-45deg,#037ffc ,#0b11bf );
+  color: white;
+  text-align: center;
+  line-height: normal;
+  font-family: 'Raleway', sans-serif;
+  font-size: 1em;
+  font-weight: bold;
+  text-decoration: none;
+  text-shadow: 0 1px 0 rgba(255,255,255,.8);
+  vertical-align: middle;
+  outline: none;
+  position: fixed;
+  bottom: 10px;
+  right: 10%;
+
+}
+.tossubmit  , .svssubmit , .roundsubmit ,
+ .jobinfosubmit, .estimatesubmit ,
+.circlesubmit ,.alumsubmit , .black_ironsubmit   , .budget , .cascosubmit  , .sssubmit , .rhsubmit , .linersubmit , .pricesubmit{
+  padding: 10px 20px;
+  display: inline-block;
+  margin: auto;
+  border-radius: 50px !important;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1), inset;
+  background: linear-gradient(-45deg,#037ffc ,#0b11bf );
+  color: white;
+  text-align: center;
+  line-height: normal;
+  font-family: 'Raleway', sans-serif;
+  font-size: 1em;
+  font-weight: bold;
+  text-decoration: none;
+  text-shadow: 0 1px 0 rgba(255,255,255,.8);
+  vertical-align: middle;
+  outline: none;
+  position: fixed;
+  bottom: 10px;
+  right: 30px;
+
+  
+}
+
+
+ 
+input[readonly]{
+  background-color: #93a4a773;
+}
+
+>>>>>>> afd24e9 (Sameer)
