@@ -1,0 +1,97 @@
+ul.vertical {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  width: 200px;
+  background-color: #48494B !important;
+  position: fixed;
+  left: 0;
+  top: 10%;
+  overflow-y: auto;
+  height: 80%;
+  display: none;
+  z-index: 1000;
+
+}
+  
+  /* Style the scrollbar track */
+  ul.vertical::-webkit-scrollbar-track {
+    background: #01c3ea; /* Track color */
+    
+  }
+  
+  /* Style the scrollbar thumb (the draggable part) */
+  ul.vertical::-webkit-scrollbar-thumb {
+    background: #56d8e4; /* Thumb color */
+    border-radius: 10px; /* Rounded corners for the thumb */
+  }
+  
+  
+  li.vertical_li a {
+    display: block;
+    color: #fff !important;
+    padding: 8px 16px;
+    text-decoration: none;
+    transition: background-color 0.3s;
+  }
+  
+  li.vertical_li a.active {
+    background-color: rgb(19, 198, 239);
+    color: white;
+  }
+  
+  li.vertical_li a:hover:not(.active) {
+    background-color: #0c9fe2;
+    color: rgb(24, 24, 24);
+    border-radius: 8px;
+  }
+
+
+.sheets{
+  background-color: #0c9fe2;
+  color: white !important;
+  border-radius: 10%;
+  cursor:pointer;
+}
+
+/* horizontal */
+ul.horizontal {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color:   #48494B;
+  position: fixed;
+  top: 0;
+  right: 0%;
+  width: 100%;
+  /* border-top: 5px solid black; */
+}
+
+li.horizontal_li {
+  float: left;
+  /* border : 2px solid black; */
+  /* border-radius: 10%; */
+  margin: 1%;
+  /* box-shadow: 5px 5px 5px rgb(122, 132, 133); */
+  border-radius: 10%;
+}
+
+li.horizontal_li a {
+  display: block;
+  color:  black;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+li.horizontal_li a:hover {
+  background-color: rgb(0, 170, 255);
+  /* background-color: black; */
+  color: white;
+  border-radius: 10%;
+}
+
+/* li.horizontal_li a:hover { 
+  text-decoration: underline;
+} */
